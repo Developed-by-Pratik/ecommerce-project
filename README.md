@@ -24,8 +24,9 @@ The focus of this project is:
 ## Owner & License
 
 **Owner**: [Developed-by-Pratik](https://github.com/Developed-by-Pratik)  
-**License**: MIT License - Free to use, modify, and distribute  
-**Status**: Active Development
+**License**: MIT License  
+**Status**: Active Development  
+**Visibility**: Personal Project
 
 ---
 
@@ -303,8 +304,6 @@ The application uses PostgreSQL with the following main entities:
 - **Orders** - Immutable order records
 - **OrderItems** - Order line items with snapshots
 
-See `ARCHITECTURE.md` for detailed schema documentation.
-
 ---
 
 ## Testing
@@ -370,10 +369,7 @@ src/
 
 ├── docker-compose.yml         # Docker services setup
 ├── pom.xml                    # Maven dependencies
-├── README.md                  # This file
-├── CONTRIBUTING.md            # Contribution guidelines
-├── ARCHITECTURE.md            # Detailed architecture docs
-└── CHANGELOG.md               # Version history
+└── README.md                  # This file
 ```
 
 ---
@@ -459,36 +455,9 @@ curl http://localhost:8080/actuator/health/details
 
 ---
 
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
-- Development setup
-- Code style guidelines
-- Git workflow
-- Testing requirements
-- Commit message format
-
----
-
-## Documentation
-
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed system architecture and design patterns
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
-- **[CHANGELOG.md](CHANGELOG.md)** - Version history and roadmap
-
----
-
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-MIT License allows you to:
-- ✅ Use commercially
-- ✅ Modify the code
-- ✅ Distribute the software
-- ✅ Use privately
-
-The only requirement is to include a copy of the license and copyright notice.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -502,21 +471,4 @@ The only requirement is to include a copy of the license and copyright notice.
 
 ---
 
-## Contact & Support
-
-- **Repository**: [https://github.com/Developed-by-Pratik/ecommerce-project](https://github.com/Developed-by-Pratik/ecommerce-project)
-- **Author**: [Developed-by-Pratik](https://github.com/Developed-by-Pratik)
-- **Issues**: [GitHub Issues](https://github.com/Developed-by-Pratik/ecommerce-project/issues)
-
----
-
-## Acknowledgments
-
-- Spring Boot & Spring Framework community
-- PostgreSQL and Redis communities
-- JWT best practices from jwt.io
-- Open source contributors
-
----
-
-**Made with ❤️ by Developed-by-Pratik**
+**Built by Developed-by-Pratik**
