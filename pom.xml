@@ -14,19 +14,24 @@
 	<artifactId>Ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Ecommerce</name>
-	<description>project for ecommerce</description>
-	<url />
+	<description>E-Commerce Backend API - A portfolio-grade Spring Boot application with clean architecture and secure API design</description>
+	<url>https://github.com/Developed-by-Pratik/ecommerce-project</url>
 	<licenses>
-		<license />
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer />
+		<developer>
+			<name>Developed-by-Pratik</name>
+			<url>https://github.com/Developed-by-Pratik</url>
+		</developer>
 	</developers>
 	<scm>
-		<connection />
-		<developerConnection />
-		<tag />
-		<url />
+		<connection>scm:git:https://github.com/Developed-by-Pratik/ecommerce-project.git</connection>
+		<developerConnection>scm:git:https://github.com/Developed-by-Pratik/ecommerce-project.git</developerConnection>
+		<url>https://github.com/Developed-by-Pratik/ecommerce-project</url>
 	</scm>
 	<properties>
 		<java.version>21</java.version>
@@ -129,13 +134,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-			<version>2.3.0</version>
-		</dependency>
-
 
 	</dependencies>
 
